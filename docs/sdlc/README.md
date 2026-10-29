@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 create a simple flashcard app
 
-**Documentation version:** v1
+**Documentation version:** v2
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -15,7 +15,7 @@ create a simple flashcard app
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
 | [Architecture](architecture/README.md) | 12 entries |
-| [Development](development/README.md) | 9 entries |
+| [Development](development/README.md) | 4 entries |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
 | [Maintenance](maintenance/README.md) | 1 entry |
@@ -31,7 +31,7 @@ create a simple flashcard app
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 22 requirements |
-| [Changelog](CHANGELOG.md) | 1 version |
+| [Changelog](CHANGELOG.md) | 2 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -47,11 +47,15 @@ create a simple flashcard app
 
 ### Development
 
-- Plan does not explicitly list which backlog items belong to this sprint beyond what the goal text implies; exact item-to-sprint mapping is not given in the input.
-- No completion status, burndown, or actual outcome recorded for this sprint.
-- Plan does not explicitly list which backlog items belong to this sprint beyond what the goal text implies.
-- No completion status or actual outcome recorded for this sprint.
-- No completion status, code artifacts, or review outcomes provided for any of these items; this reflects planned backlog only.
+- No ticket-level completion/status (done, in review, blocked, etc.) was provided for any story or task — only planned scope is known, not what has been built.
+- No code artifacts, pull requests, commit references, or build logs were included in this input.
+- All 6 epics have role '(unassigned)' in the plan — no owning role recorded at the epic level.
+- US-022 (free, English-only app, no extra services) is not explicitly referenced by any sprint goal, unlike its sibling stories US-020 and US-021 — unclear which sprint is intended to deliver/verify it; flagging as an ambiguity for confirmation.
+- No completion status reported for any story or task in this sprint — cannot confirm sign-up, sign-in, sign-out, or data-isolation work is actually done.
+- No completion status reported for any story or task in this sprint.
+- US-020 belongs to EPIC-006 (Responsive Web Experience and Platform Foundations) in the backlog grouping but is addressed by this sprint's goal text — flagging the cross-epic placement for confirmation rather than silently resolving it.
+- No completion status reported for any story or task in this sprint — study-session mechanics, scoring, progress history, and error handling cannot be confirmed as built.
+- US-021 belongs to EPIC-006 (Responsive Web Experience and Platform Foundations) in the backlog grouping but is addressed by this sprint's goal text — flagging the cross-epic placement for confirmation.
 
 ### Testing
 
